@@ -1,4 +1,5 @@
 local lplr = game:GetService("Players").LocalPlayer
+queue_on_teleport("task.wait(1);loadstring(game:HttpGet('https://raw.githubusercontent.com/zesty-codes/FunnyGame/main/GAME.lua'))()")
 function shootAt(cf)
 	for i, v in next, lplr.Character:GetChildren() do
 		if v:IsA("Tool") and v.Name ~= "Shotty" then
